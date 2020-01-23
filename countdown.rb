@@ -4,7 +4,7 @@ def countdown(number)
   
   while number != 0 
      
-    "#{number} SECOND(S)!"
+    print"#{number} SECOND(S)!"
         
     "HAPPY NEW YEAR!"
     number -=1 
