@@ -6,9 +6,9 @@ def countdown(number)
      
     puts"#{number} SECOND(S)!"
         
-    "HAPPY NEW YEAR!"
     number -=1 
     end
+    return "HAPPY NEW YEAR!"
 end
  
  def countdown_with_sleep(speed) 
