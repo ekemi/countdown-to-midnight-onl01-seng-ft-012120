@@ -7,9 +7,9 @@ def countdown(number)
     puts"#{number} SECOND(S)!"
         
     return"HAPPY NEW YEAR!"
-    number+=1 
- end
- end
+    number -=1 
+    end
+end
  
  def countdown_with_sleep(speed) 
    
@@ -18,5 +18,5 @@ def countdown(number)
          puts "Trip"
          sleep(1)
          speed +=1
-    end
+  end
 end
