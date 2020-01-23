@@ -10,4 +10,12 @@ def countdown(number)
  end
  end
  
- def countdown_with_sleep
+ def countdown_with_sleep(speed) 
+   
+   while speed <10 
+   
+         puts "Trip"
+         sleep(1.SECOND)
+         speed +=1
+    end
+end
